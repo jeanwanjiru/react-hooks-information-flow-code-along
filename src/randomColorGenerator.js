@@ -8,3 +8,23 @@ export function getRandomColor() {
   }
   return color;
 }
+
+
+
+// function Parent() {
+//   const randomColor = getRandomColor();
+//   const [color, setColor] = useState(randomColor); // initial value for color state
+
+//   function handleChangeColor() {
+//     const newRandomColor = getRandomColor();
+//     setColor(newRandomColor); // update color state to a new value
+//   }
+
+//   return (
+//     <div className="parent" style={{ backgroundColor: color }}>
+//       <Child />
+//       <Child />
+//     </div>
+//   );
+// }
+
